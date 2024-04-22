@@ -1,5 +1,5 @@
 ---
-icon: fa fas-bowl-rice
+icon: fas fa-bowl-rice
 order: 5
 ---
 ### This page is not completed but I hope to have it up and running soon!
