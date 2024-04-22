@@ -20,7 +20,6 @@ Anyways now that that is out of the way... here are some meals and drinks that a
 
 ## Pastas
 https://github.com/Shopify/liquid
-{% assign sorted = site.recipes | sort: 'title' %} {% for recipe in sorted %}{% unless recipe.omit == true %}- [{{ recipe.title }}]({{ recipe.url | relative_url }}) - {{ recipe.excerpt }} {% endunless %}{% endfor %}
 
 ## Soups & Salads
 
