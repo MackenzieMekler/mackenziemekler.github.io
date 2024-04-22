@@ -1,4 +1,4 @@
 ---
-icon: fa fas-code
+icon: fas fa-code
 order: 6
 ---
