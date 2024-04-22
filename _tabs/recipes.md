@@ -1,4 +1,4 @@
 ---
-icon: fa fas-bowl-rice
+icon: fas fa-bowl-rice
 order: 5
 ---
