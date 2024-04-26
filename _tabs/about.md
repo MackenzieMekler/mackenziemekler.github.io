@@ -36,4 +36,4 @@ This has become a large side project for me all alone. I have really loved getti
 
 ### The some guy behind somephdstudent
 
-While I seemingly spend all of my time pursuing school or research I do have some interests outside of those areas. I am an avid sport player spending most of my time playing indoor or beach volleyball but I enjoy playing anything from soccer to badmitton. Additionally, I enjoy reading, watching tv shows, and I have been involved in a D&D campaign with my friends from undergraduate for a little over a year now (despite having little to no knowledge of the game).
+While I seemingly spend all of my time pursuing school or research I do have some interests outside of those areas. I am an avid sport player spending most of my time playing indoor or beach volleyball but I enjoy playing anything from soccer to badminton. Additionally, I enjoy reading, watching tv shows, and I have been involved in a D&D campaign with my friends from undergraduate for a little over a year now (despite having little to no knowledge of the game).
