@@ -7,10 +7,8 @@ The average biologist learns about the electron transport chain (ETC) 4 times in
 
 ATP synthase was the reason for this. In a grossly simplified overview, the ETC exists to use energy from NADP and FADH2 to move hydrogen ions across a membrane. By allowing hydrogens back across the membrane but only through the ATP synthase, a water mill of sorts is created but this mill powers almost every single eukaryotic cell.
 
-------------------------------------------------------------------------------------------------------
-![ATP Synthase](/assets/graphics/2024-05-14-physical-enzymes/gif1.gif "ATP Synthase"){: .w-50 .rounded-10 .left}![Hydroelectric Plant](/assets/graphics/2024-05-14-physical-enzymes/gif2.gif "Hydroelectric Plant"){: .w-50 .rounded-10 .right}
+![ATP Synthase](/assets/graphics/2024-05-14-physical-enzymes/gif1.gif "ATP Synthase") ![Hydroelectric Plant](/assets/graphics/2024-05-14-physical-enzymes/gif2.gif "Hydroelectric Plant")
 
------------------------------------------------------------------------------------------------------
 This protein rotates very much in the same way generators do to produce the same product… Energy! It was this realization that changed the way that I viewed biochemistry. Chemistry is often thought of so separately from physics and the laws that govern our “macro” world but they are not different. ATP synthase harnesses energy from a gradient and motion to catalyze the formation of ATP in the same way that a water wheel harnesses the flow of water from high to low to produce electricity. 
 
 I titled this post Physical Enzymes because while I know all enzymes are physical objects, too many students forget this (myself included). It is too easy to sign off an enzyme as a mystical chemical that makes a reaction happen and forget that it is governed by physical forces. Not only does this give an appreciation for the adaptability of nature and its willingness to use any forces or measures necessary to complete a goal, but it yields practical use as well. Many drugs work by enzyme inhibition and some of the most common of these block an enzyme sterically, or in other words, by getting in the way of the other objects interacting with the enzyme. 
