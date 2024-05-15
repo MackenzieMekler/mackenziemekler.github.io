@@ -10,7 +10,6 @@ ATP synthase was the reason for this. In a grossly simplified overview, the ETC 
 
 ![ATP Synthase](/assets/graphics/2024-05-14-physical-enzymes/gif1.gif "ATP Synthase")
 {: .w-50 .rounded-10 .left}
-
 ![Hydroelectric Plant](/assets/graphics/2024-05-14-physical-enzymes/gif2.gif "Hydroelectric Plant")
 {: .w-50 .rounded-10 .right}
 
@@ -21,7 +20,7 @@ I titled this post Physical Enzymes because while I know all enzymes are physica
 
 Even in organic chemistry reactions, steric hindrance can slow or even stop a reaction. This is easily seen in Sn2 reactions which lie a little out of this scope but are interesting and very useful in organic synthesis.
 
-divider if possible
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 I started this conversation with ATP synthase because it was truly my first experience with this concept but it is not necessarily the easiest to visualize. In fact a much easier example may be one of the “cutest” proteins you will ever see.
 
