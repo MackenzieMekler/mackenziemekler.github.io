@@ -8,10 +8,7 @@ The average biologist learns about the electron transport chain (ETC) 4 times in
 ATP synthase was the reason for this. In a grossly simplified overview, the ETC exists to use energy from NADP and FADH2 to move hydrogen ions across a membrane. By allowing hydrogens back across the membrane but only through the ATP synthase, a water mill of sorts is created but this mill powers almost every single eukaryotic cell.
 
 ------------------------------------------------------------------------------------------------------
-![ATP Synthase](/assets/graphics/2024-05-14-physical-enzymes/gif1.gif "ATP Synthase")
-{: .w-50 .rounded-10 .left}
-![Hydroelectric Plant](/assets/graphics/2024-05-14-physical-enzymes/gif2.gif "Hydroelectric Plant")
-{: .w-50 .rounded-10 .right}
+![ATP Synthase](/assets/graphics/2024-05-14-physical-enzymes/gif1.gif "ATP Synthase"){: .w-50 .rounded-10 .left}![Hydroelectric Plant](/assets/graphics/2024-05-14-physical-enzymes/gif2.gif "Hydroelectric Plant"){: .w-50 .rounded-10 .right}
 
 -----------------------------------------------------------------------------------------------------
 This protein rotates very much in the same way generators do to produce the same product… Energy! It was this realization that changed the way that I viewed biochemistry. Chemistry is often thought of so separately from physics and the laws that govern our “macro” world but they are not different. ATP synthase harnesses energy from a gradient and motion to catalyze the formation of ATP in the same way that a water wheel harnesses the flow of water from high to low to produce electricity. 
