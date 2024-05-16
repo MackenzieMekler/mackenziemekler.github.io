@@ -19,9 +19,9 @@ Anyway now that that is out of the way... here are some meals and drinks that ar
 
 ## Marinades
 here are some words
-{{ hi this should print }} 
+{{ "hi this should print" }} 
 {% for post in site.recipes %}
-{{ post.title }} 
+    {{ post.title }} 
 {% endfor %}
 
 
