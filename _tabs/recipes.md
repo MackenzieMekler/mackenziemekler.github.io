@@ -18,7 +18,7 @@ https://www.foodbymaria.com/
 Anyway now that that is out of the way... here are some meals and drinks that are getting me through school
 
 ## Marinades
-here are some words
+here are some pizzas
 {{ "hi this should print" }} 
 {% for post in site.recipes %}
     {{ post.title }} 
