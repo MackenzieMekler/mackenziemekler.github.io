@@ -19,7 +19,7 @@ Anyway now that that is out of the way... here are some meals and drinks that ar
 
 ## Marinades
 {% for post in site.recipes %}
-    - [{{ post.title }}]({{ post.url | relative_url }}) 
+- [{{ post.title }}]({{ post.url | relative_url }}) 
 {% endfor %}
 
 
