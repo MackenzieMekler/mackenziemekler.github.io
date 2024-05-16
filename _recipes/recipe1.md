@@ -1,4 +1,5 @@
 ---
+layout: page
 title: recipe1
 type: marinade
 description: this is a pretty good meal
