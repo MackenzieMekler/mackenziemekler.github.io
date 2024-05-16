@@ -18,7 +18,8 @@ https://www.foodbymaria.com/
 Anyways now that that is out of the way... here are some meals and drinks that are getting me through school
 
 ## Marinades
-{% assign sorted = site.recipes | sort: 'title' %} {{ site.recipes }} {% for recipe in sorted %} hi {% endfor %}
+1
+{% assign sorted = site.recipes | sort: 'title' %} {{ site.recipes }} {% for recipe in sorted %} {{sorted.title}} hi {% endfor %}
 
 ## Pastas
 https://github.com/Shopify/liquid
