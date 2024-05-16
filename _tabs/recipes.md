@@ -18,12 +18,8 @@ https://www.foodbymaria.com/
 Anyway now that that is out of the way... here are some meals and drinks that are getting me through school
 
 ## Marinades
-{{ "collections" }} 
-{{ site.collections | array_to_string }}
-{{ site.collections | size }}
-{{ site.recipes | size }}
 {% for post in site.recipes %}
-    {{ post.title }} 
+    - [{{ post.title }}]({{ post.url | relative_url }}) 
 {% endfor %}
 
 
