@@ -15,11 +15,15 @@ https://hungryhappens.net/
 
 https://www.foodbymaria.com/
 
-Anyways now that that is out of the way... here are some meals and drinks that are getting me through school
+Anyway now that that is out of the way... here are some meals and drinks that are getting me through school
 
 ## Marinades
-1
-{% assign sorted = site.recipes | sort: 'title' %} {{ site.recipes }} {% for recipe in sorted %} {{sorted.title}} hi {% endfor %}
+here are some words
+{{ hi this should print }} 
+{% for post in site.recipes %}
+{{ post.title }} 
+{% endfor %}
+
 
 ## Pastas
 https://github.com/Shopify/liquid
