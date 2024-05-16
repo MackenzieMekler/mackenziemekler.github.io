@@ -150,7 +150,6 @@ collections:
     sort_by: order
   recipes:
     output: true
-    sort_by: name
 
 
 defaults:
@@ -179,12 +178,6 @@ defaults:
     values:
       swcache: true
   # _recipes
-  - scope: 
-      path: "_recipes"
-      type: recipes
-    values:
-      layout: page
-      toc: true
 
 
 
