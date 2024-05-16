@@ -18,7 +18,6 @@ https://www.foodbymaria.com/
 Anyway now that that is out of the way... here are some meals and drinks that are getting me through school
 
 ## Marinades
-{{ "please for the love of god put me out of my misery" }} 
 {{ "collections" }} 
 {{ site.collections | array_to_string }}
 {{ site.collections | size }}
