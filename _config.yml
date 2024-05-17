@@ -150,6 +150,8 @@ collections:
     sort_by: order
   recipes:
     output: true
+  code:
+    output: true
 
 
 defaults:
@@ -178,7 +180,7 @@ defaults:
     values:
       swcache: true
   # _recipes
-
+  # _code
 
 
 sass:
