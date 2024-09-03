@@ -1,7 +1,7 @@
 ---
 title: Tour of My Statement of Purpose
 date: 2024-08-14
-tags: applications, phd, help
+tags: applications phd help
 ---
 
 ### What is a Statement of Purpose?
