@@ -1,9 +1,8 @@
-# What am I Looking for in a Mentor?
-
-Tags: Ph.D.
-Published: No
-Ready for Editing : Yes
-Topic: Advice
+---
+title: What am I looking for In a Mentor?
+date: 2024-09-02
+tags: advice phd
+---
 
 As I quickly approach the start of my first rotation, I feel bombarded by the question: “What are you looking for in your mentor?”. I have been asked this by my friends, family, professors, and worst of all myself. The truth is that this represents the first time that I really have control over the type of mentoring that I will receive and I am not sure how to answer it. But, that being said, I will soon need to have an idea because in the next month I will be in a lab with one rotation slot filled and only two left to choose my home lab and PhD advisor. 
 
