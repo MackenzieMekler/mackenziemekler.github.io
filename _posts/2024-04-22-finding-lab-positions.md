@@ -1,7 +1,7 @@
 ---
 title: Finding Lab Postions
 date: 2024-04-22
-tags: undergraduate, help
+tags: undergraduate help
 ---
 Academic research experiences are a cornerstone of undergraduate achievement in the sciences. Most undergraduates interested in the sciences aim to participate in research of some kind, especially those who are more interested in a PhD than medical school. And there is good reason for this. Undergraduate research is valuable for so many reasons such as :
 
