@@ -148,10 +148,10 @@ collections:
   tabs:
     output: true
     sort_by: order
-  recipes:
-    output: true
-  code:
-    output: true
+  # recipes:
+  #   output: true
+  # code:
+  #   output: true
 
 
 defaults:
