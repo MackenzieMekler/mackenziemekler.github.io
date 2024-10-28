@@ -24,7 +24,8 @@ In order to use these antibodies, the cells of interest are lysed and protein is
 
 ### Western Blot Experiment Example
 
-This experiment was taken from the paper: (*i am going to use my csc paper*)
+This experiment was taken from the paper: Piperlongumine based nanomedicine impairs glycolytic metabolism in triple negative breast cancer stem cells through modulation of GAPDH and FBP1
+
 
 In this paper, the researchers are investigating the effect of a drug on a subpopulation of cells in tumors termed cancer stem cells. In the second figure of the paper, the researchers need to evaluate the “stemness” of these cells by looking at the expression levels of various proteins. This makes running a Western blot a clear choice! It is relatively easy for common proteins and it is a gold standard in comparing/measuring protein levels. 
 
