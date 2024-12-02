@@ -11,7 +11,7 @@ As cancer cells have many different properties from normal cells, they also have
 When combined with media containing specific metabolites, this assay is able to show which metabolic pathways are required, active, or inactive in certain cells. 
 
 ### Overview of Metabolism
-
+#
 Glucose that enters a cell is broken down by glycolysis and either put through the TCA cycle (which consumes oxygen) for a high energy production or fermentation (which does not consume oxygen) for a lower energy production. Each of these pathways is further complicated by the fact that metabolites can enter them at various points. 
 
 ![Metabolism Diagram](/assets/graphics/2024-12-02-my-toolbox-seahorse-assay/metabolism.png)
@@ -30,7 +30,7 @@ ECAR Graphs can be split into 3 main segments characterized by the addition of 2
 After this is measured, oligomycin is added to inhibit ATP synthase. This chokes a cell’s energy supply and forces glycolysis into overdrive as a response. The glycolytic rate in this stage is called the glycolytic capacity as it represents the maximum glycolytic rate a cell is capable of. As a side note, the difference between glycolytic capacity and basal rate is called the glycolytic reserve. 
 
 Finally, 2-DG is added to inhibit glycolysis and show all media acidification that comes from non-glycolytic processes. 
-
+#
 - Glucose - Allows for the start of glycolysis
 - Oligomycin - This is an inhibitor of ATP synthase. This thus induces the maximum glycolytic activity that a cell can achieve (termed the glycolytic capacity) in order to make up for the resultant energy deficit.
 - 2-DG - This is an inhibitor of glycolysis by binding to hexokinase. This causes a complete shutdown of glycolysis which allows us to see ECAR from non-glycolytic pathways.
