@@ -11,7 +11,7 @@ As cancer cells have many different properties from normal cells, they also have
 When combined with media containing specific metabolites, this assay is able to show which metabolic pathways are required, active, or inactive in certain cells. 
 
 ![Metabolism Diagram](/assets/graphics/2024-12-02-my-toolbox-seahorse-assay/metabolism.png)
-{: .h-40 .rounded-10 .right}
+{: .w-10 .rounded-10 .right}
 
 ### Overview of Metabolism
 
