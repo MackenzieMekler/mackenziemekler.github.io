@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="research.html">Research Goals</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1P0_Cf2sLRW-nAUHEVVqswECg8cDqdzSG?usp=sharing">CV/Biosketch</a></li>
+            <li><a href="blog.html">Some Thoughts (Blog)</a></li>
+            <li><a href="acknowledgments.html">Acknowledgments</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="video-hero">
+            <video class="header-video" autoplay muted loop playsinline>
+                <source src="./images/website-killing-video-cropped.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-content">
+                <img src="./images/profile.jpg" alt="My Profile Picture" class="profile-pic">
+                <h1 class="intro">Mackenzie P Mekler</h1>
+                <h4 class="intro">Emory CB PhD Student</h4>
+                <h4 class="intro">Boise Lab</h4>
+            </div>
+        </div>
+        <section class="short-introduction">
+            <div class="intro-text">
+                <h2 class="who-am-i">Who Am I?</h2>
+                <p class="short-intro">Hey everyone! There is a whole page dedicated to this (see my "about me" for some
+                    more fun) but I figured I would give a quick intro. My name is Mackenzie (Mack) Mekler and I am a
+                    student. I mean this beyond my PhD studies - which I have only just begun - and more in that
+                    learning is a huge part of who I am. It is my favorite past time and encompasses the sciences,
+                    engineering, technology, language, sports, and so much more. Following a student I am a builder as
+                    creating projects is my second favorite thing to do. This website is a reflection of these loves as
+                    I taught myself the code required to make it and then built and hosted it myself. My career shows
+                    this as well. As a scientific researcher I am paid to learn and to build things that have never been
+                    learnt or built before. This is a dream to me and is part of why I think research called so strongly
+                    to me.</p>
+                <p class="short-intro">Beyond the lab I take up many hobbies. I enjoy language learning having studied
+                    many before, French, Portuguese (Brazilian), Mandarin, and to the largest extent Spanish. I also am
+                    a sports/games fanatic. I play soccer and volleyball most but can be caught playing pretty much any
+                    sport. Additionally, some of my favorite activities with friends include board games like codenames,
+                    taboo, hand-to-hand wombat, and exploding kittens.</p>
+            </div>
+            <img src="./images/spinning-vball.jpg" alt="I'm spinning a volleyball... trust me it's cool"
+                class="spinning-vball">
+        </section>
+        <hr class="blue-divider">
+        <section class="website-guide">
+            <h2 class="website-guide">What's In My Website?</h2>
+            <div class="card-grid">
+                <a href="about-me.html" class="grid-card">
+                    <div class="grid-card-in">
+                        <h3>About Me</h3>
+                        <p>In this section I will talk about who I am both as a researcher and as a person outside of
+                            the
+                            lab! If you want to hear more about me and the path that took me to Emory University for my
+                            PhD
+                            click this page.</p>
+                    </div>
+                </a>
+                <a href="research.html" class="grid-card">
+                    <div class="grid-card-in">
+                        <h3>Research</h3>
+                        <p>In this section I will talk about my current research goals and projects. This will also
+                            include
+                            any collaborations I am working on as well as past projects.</p>
+                    </div>
+                </a>
+                <a href="cv-biosketch.html" class="grid-card">
+                    <div class="grid-card-in">
+                        <h3>CV/Biosketch</h3>
+                        <p>This page takes you to a link to my most updated CVs and Biosketches in case they are of
+                            interest
+                            to you!</p>
+                    </div>
+                </a>
+                <a href="blog.html" class="grid-card">
+                    <div class="grid-card-in">
+                        <h3>My Blog</h3>
+                        <p>This blog was created as a way for me to document my PhD journey as well as to practice
+                            writing
+                            and communicating science at various levels. Please read at your interest to see what has
+                            been
+                            on my mind.</p>
+                    </div>
+                </a>
+                <a href="acknowledgments.html" class="grid-card">
+                    <div class="grid-card-in">
+                        <h3>Acknowledgments</h3>
+                        <p>This is perhaps my favorite page that I have. As researchers give credit to those who work
+                            with
+                            them to complete a project, here I want to acknowledge all of the incredible people that
+                            have
+                            helped me become the researcher I am today and who are helping me become the researcher I
+                            want
+                            to be!</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <footer>
+            <ul class="footer-logos">
+                <li>
+                    <a href="https://github.com/MackenzieMekler" target="_blank">
+                        <img src="images/github.svg" alt="GitHub" />
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:mackenzie.mekler@emory.edu" target="_blank">
+                        <img src="images/email.svg" alt="Email" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/mackenzie-mekler/" target="_blank">
+                        <img src="images/linkedin.svg" alt="LinkedIn" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/meckler19" target="_blank">
+                        <img src="images/instagram.svg" alt="Instagram" />
+                    </a>
+                </li>
+                <!-- Add more logos as needed -->
+            </ul>
+        </footer>
+
+        <script>
+            window.addEventListener('scroll', function () {
+                const header = document.querySelector('header');
+                if (window.scrollY > 0) {
+                    header.classList.add('transparent');
+                } else {
+                    header.classList.remove('transparent');
+                }
+            });
+        </script>
+</body>
+
+</html>

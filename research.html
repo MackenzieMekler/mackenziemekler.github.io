@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/research.css">
+</head>
+
+<body>
+    <header>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="research.html">Research Goals</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1P0_Cf2sLRW-nAUHEVVqswECg8cDqdzSG?usp=sharing">CV/Biosketch</a></li>
+            <li><a href="blog.html">Some Thoughts (Blog)</a></li>
+            <li><a href="acknowledgments.html">Acknowledgments</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="projects-list">
+            <section class="boise-thesis">
+                <h1>My Thesis: BCMA CARs in Multiple Myeloma</h1>
+                <div class="thesis-content content-wrapper">
+                    <div class="thesis-text text">
+                        <p>The focus of my thesis project is to investigate how myeloma cells are becoming resistant to anti-BCMA CAR T cell therapies. In order to do this, I am studying properties both of the myeloma cells and of the CAR T cells. By learning more about resistance mechanisms, we may be able to overcome them and prolong relapse even further in patients.</p>
+                    </div>
+                    <video src="images/website-killing-video-cropped.mp4"></video>
+                </div>
+            </section>
+            <hr class="blue-divider">
+            <section class="nsc-swanson">
+                <h1>UF Honors Thesis: Investigating NSCs in Myotonic Dystrophy</h1>
+                <div class="nsc-swanson content-wrapper">
+                    <div class="nsc-text text">
+                        <p>Myotonic Dystrophy (DM) is the most common form of adult onset muscular dystrophy and presents with both muscular and neuronal symptoms. In humans there are two forms either caused by CTG repeat expansions in the DMPK gene (Type 1) or by CCTG repeat expansions in the CNBP gene (Type 2). These repeat expansions are transcribed into RNA which then forms toxic 3D structures in the nucleus before translation. These structures can cluster MBNL proteins which are splicing factors leading to cell-wide gene dysregulation. Our lab hypothesized that the symptoms of DM are caused largely by this dysregulation in neural stem cells (NSCs). For my honors thesis I pursued this hypothesis by using murine NSCs that knockouts of MBNL1 and/or MBNL2. I then investigated if the regulation of differentiation and proliferation changed through neurosphere assays and immmunofluorescence. Interestingly, the rate of proliferation of these cells did not appear to change however differentiation and sphere formation were both different between the control and the double knockout cells. Hopefully by better understanding the mechanisms underlying DM, future treatments can be developed for patients.</p>
+                    </div>
+                    <a href="https://ufdc.ufl.edu/AA00098310/00001/pdf"><img src="images/honors-thesis.jpg"></a>
+                </div>
+            </section>
+            <hr class="blue-divider">
+            <section class="spiny-mouse">
+                <h1>Studying Ischemia in Regeneraive Spiny Mouse</h1>
+                <div class="spiny-mouse content-wrapper">
+                    <div class="spiny-text text">
+                        <p>The African Spiny Mouse - <em>Acomys</em> - has gained fame as a regenerative mammal model. Regeneration is a very unique ability enabling scarless healing as well as near perfect or perfect function after the regeneration of the damaged area. This contrasts strongly with the healing that other mammals (like us) are capable, where the wound is filled with collagen or dysorganized tissue that causes a loss of function. Wonderously, <em>Acomys</em> have been proven capable of regeneration in organs including the heart, kidney, and spinal column. This led our lab to hypothesize that they may be capable of cerebral regeneration. In order to test this, these mice were given ischemias (a type of stroke) and studied physiologically and behaviorally. Physiologically, our lab proved that these mice are not able to regenerate damaged brain regions but interestingly, the behavioral studies that I participated in showed a dramatic recovery. It appears that this is due to high neural plasticity but this would require further studies to confirm. This opens a door to new treatments for stroke or neurodegenerative disease which are high risk factors as we age.</p>
+                    </div>
+                    <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11662029/"><img src="images/spiny-paper.jpg"></a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <ul class="footer-logos">
+            <li>
+                <a href="https://github.com/MackenzieMekler" target="_blank">
+                    <img src="images/github.svg" alt="GitHub" />
+                </a>
+            </li>
+            <li>
+                <a href="mailto:mackenzie.mekler@emory.edu" target="_blank">
+                    <img src="images/email.svg" alt="Email" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/mackenzie-mekler/" target="_blank">
+                    <img src="images/linkedin.svg" alt="LinkedIn" />
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com/meckler19" target="_blank">
+                    <img src="images/instagram.svg" alt="Instagram" />
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            if (window.scrollY > 0) {
+                header.classList.add('transparent');
+            } else {
+                header.classList.remove('transparent');
+            }
+        });
+    </script>
+</body>
