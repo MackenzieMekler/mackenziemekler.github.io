@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.content {
+  margin-left: 140px;
+  padding: 2rem;
+}
+
+section {
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+section h2 {
+    justify-self: center;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin: 0;
+    width: inherit;
+    padding-bottom: 30px;
+}
+
+.container img {
+    height: 500px;
+    width: auto;
+}
+
+.progress-container {
+  position: fixed;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  height: 60%;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transform: translateX(-25%);
+}
+
+.group .bubble {
+  margin: 0; /* remove any auto margins */
+}
+
+.group h5 {
+  font-weight: normal;
+  font-size: 14px;
+  color: #333;
+}
+
+.progress-line {
+  position: absolute;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #0077ff 0%, #0077ff 0%, #ccc 0%);
+  z-index: -1;
+  border-radius: 2px;
+}
+
+.bubble {
+  width: 14px;
+  height: 14px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex-shrink: 0;
+}
+
+.bubble.active {
+  background-color: #0077ff;
+}

@@ -1,0 +1,17 @@
+main {
+    padding-top: 100px;
+}
+
+.post-list {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.post-box {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}

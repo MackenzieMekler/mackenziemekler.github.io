@@ -1,0 +1,213 @@
+/* This file contains the CSS styles for the personal website. */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.blue-divider {
+    width: 80%;
+    height: 2px;
+    background-color: #456e88; /* Blue color */
+    margin: 20px 0; /* Spacing above and below the divider */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #456e88;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+    transition: background 0.3s ease;
+}
+
+header.transparent {
+    background: rgba(69, 110, 136, 0.8); /* semi-transparent */
+}
+
+.header-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    display: block;
+}
+
+.video-hero {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px; 
+}
+
+h1, h4 {
+    margin: 0;
+}
+
+.profile-pic {
+    display: block;
+    margin: 30px auto 20px auto; /* top, right/left, bottom */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.intro {
+    text-align: center;
+    color: #d4d4d4;
+}
+
+.short-introduction {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;      /* Increased max width for more space */
+    margin: 32px auto;
+    padding: 0px;
+    border-radius: 12px;
+    gap: 48px;              /* More space between text and image */
+}
+
+.intro-text {
+    background: inherit;
+    line-height: 1.7;
+    padding-right: 24px;     /* More padding for comfort */
+    border-radius: 8px;
+}
+
+.spinning-vball {
+    flex: 2;                /* Image takes up less space than text */
+    width: auto;           /* Larger image */
+    height: 500px;
+    object-fit: cover;      /* Keeps image proportionate */
+    display: block;
+    margin: 0;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.website-guide {
+    text-align: center;
+    width: 100%;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 32px;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+.grid-card {
+    background: #335569;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 24px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.card-grid > .grid-card:nth-child(5) {
+    grid-column: 1 / span 2;
+    justify-self: center;
+    max-width: 400px;
+}
+
+.footer-logos {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.footer-logos li {
+    margin: 0 20px;
+}
+
+.footer-logos img {
+    height: 24px;
+    width: auto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer {
+    text-align: left;
+    padding: 20px 0;
+    background: #456e88;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}

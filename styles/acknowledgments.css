@@ -1,0 +1,75 @@
+main {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px; 
+}
+
+.list-part {
+    display: flex;
+    gap: 2em;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px; /* optional: limit max width */
+}
+
+.the-talking-part,
+.family-pictures {
+    flex: 1 1 0;
+    margin: 30px 0;
+}
+
+.family-pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.family-pictures img {
+    width: 80%; /* or 100% for full width of column */
+    max-width: 400px;
+    margin-bottom: 1em;
+    height: auto;
+}
+
+.family-pictures figcaption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 1px;
+}
+
+.other-acks{
+    justify-self: center;
+}
+
+.collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 16px;
+    margin-top: 2em;
+}
+.collage figure {
+    margin: 0;
+    background: #f8f8f8;
+    overflow: hidden;
+    text-align: center;
+}
+
+.collage img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+li {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
